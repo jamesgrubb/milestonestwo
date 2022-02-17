@@ -1,0 +1,26 @@
+.form {
+	display: flex;
+	&Wrapper {
+		display: none;
+		display: flex;
+		gap: var(--md);
+	}
+}
+
+button {
+	padding-inline: var(--lg);
+	padding-block: var(--md);
+	background-color: transparent;
+	border: 0;
+	background: var(--color-sun);
+	color: white;
+	&:hover,
+	&:active {
+		background: var(--color-misty-sun);
+	}
+}
+
+input {
+	padding-inline: var(--lg);
+	padding-block: var(--md);
+}
