@@ -51,7 +51,7 @@ export default function Home() {
 						method='post'>
 						<div className='formWrapper'>
 							<label htmlFor='id'></label>
-							<input type='text' name='id' name='id' id='id' />
+							<input type='text' name='id' id='id' />
 						</div>
 						<button>submit</button>
 					</form>
